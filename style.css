@@ -128,6 +128,9 @@ svg{
         padding: 0px;
         margin: 0px;
     }
+    input{
+        font-size: 20px;
+    }
     .icn{
         /* margin-top: 20px; */
         display: flex;
