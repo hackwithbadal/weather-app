@@ -4,6 +4,10 @@ body{
     font-family: 'Acme', sans-serif;
 }
 .main{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
     border-radius: 10px;
     display: flex;
     flex-wrap: nowrap;
@@ -15,6 +19,10 @@ li{
     border: 2px solid gray;
     list-style: none;
     margin: 20px;
+}
+.vmbg{
+    padding: 0px;
+    margin: 0px;
 }
 li:hover{
     cursor: pointer;
@@ -63,7 +71,7 @@ input{
     height: auto;
     margin: 10px;
     padding: 35px 50px 50px 50px;
-    background-color: rgb(94, 94, 209);
+    background-color: rgba(39, 39, 39, 0.788);
     border-radius: 15px;
 }
 .heading{
@@ -110,9 +118,10 @@ input{
     margin-top: 30px;
 }
 .first-loader,.second-loader{
+    color: wheat;
     text-align: center;
     border-radius: 25px;
-    background-color: rgb(115, 115, 218);
+    background-color: rgba(38, 38, 39, 0.541);
     background-repeat:no-repeat;
     background-position:center;
     padding: 50px;
@@ -129,9 +138,10 @@ input{
     justify-content: space-between;
 }
 .items{
+    color: rgba(253, 244, 244, 0.89);
     margin-top: 50px;
     border-radius: 20px;
-    background-color: rgb(115, 115, 218);
+    background-color: rgba(18, 18, 20, 0.212);
     height: 170px;
     width: 100px;
     text-align: center;
@@ -147,10 +157,11 @@ input{
     font-size: 15px;
 }
 .last{
-    background-color: rgb(100, 150, 214);
+    background-color: rgba(39, 39, 39, 0.788);
+    color: rgba(253, 244, 244, 0.89);
     margin: 10px 0px 0px 0px ;
     border-radius: 10px;
-    padding: 30px;
+    padding: 12px;
 }
 .last svg:hover{
     background-color: rgb(107, 194, 194);
@@ -159,8 +170,9 @@ input{
     margin-top: 20px;
 }
 .last-col img{
+    color: rgba(245, 222, 179, 0.486);
     border-radius: 20px;
-    background-color: rgb(109, 174, 235);
+    background-color: rgba(18, 18, 20, 0.212);
     height: 80px;
     width: 80px;
     padding:10px;
@@ -171,8 +183,11 @@ input{
 .info{
     margin-top: 35px;
 }
+.zyz{
+    display: flex;
+}
 .info svg ,.citys svg .last-col img, .citys svg{
-    background-color: rgb(109, 174, 235);
+    background-color: rgba(18, 18, 20, 0.212);
     border-radius: 20px;
 }
 .abc{
